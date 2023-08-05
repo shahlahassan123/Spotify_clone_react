@@ -22,7 +22,7 @@ const Playlists = () => {
            const playlists = items.map(({name, id}) =>{
             return {name, id}
            })
-        //    console.log("playlists inside", playlists)
+       
            dispatch({type: REDUCER_CASES.SET_PLAYLISTS, playlists})
         }
         getPlaylists()
@@ -33,8 +33,7 @@ const Playlists = () => {
 
     }
 
-    // console.log("playlists outside", playlists)
-    // console.log("Selected playlists outside", selectedPlaylistID)
+
 
   return (
     <Container>

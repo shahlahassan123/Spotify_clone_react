@@ -29,55 +29,7 @@ const NavBar = () => {
 export default NavBar
 
 
-// const Container = styled.div`
-// display: flex;
-// align-items: center;
-// ustify-content: space-between;
-// height: 15vh;
-// padding: 2rem;
-// position:sticky;
-// gap:1rem;
-// top:0;
-// .search{
-//   display: flex;
-//   gap:1rem;
-//   width: 100%;
-//   background-color: white;
-//   padding: 1rem;
-//   border-radius : 5rem;
-//   input{
-//     width:100%;
-//     border:none;
-//     &:focus{
-//       outline:none;
-//     }
-//   }
-// }
-// .user_profile{
-// padding:1rem;
-// display: flex;
-// align-items: center;
-// ustify-content: center;
-// background-color: black;
-// a{
-//   text-decoration: none;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   gap: 0.5rem;
-//   color: white;
-//   font-weight: bold
-//   svg {
-//     font-size: 1.3rem;
-//     background-color: #282828;
-//     padding: 0.2rem;
-//     border-radius: 1rem;
-//     color: #c7c5c5;
-//   }
-//  }
-// }
 
-// `
 
 const Container = styled.div`
   display: flex;
